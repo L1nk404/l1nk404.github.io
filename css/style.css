@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(53, 197, 13);
+    margin:0
+}
+
+#container{
+    width: 1280px;
+    margin: auto;
+    padding: 0;
+    background-color: black;
+    
+    
+}
+
+input,textarea,select{
+    background-color: black;
+    color: rgb(53, 197, 13);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    border: 1px solid rgb(53, 197, 13);
+}
+
+header{
+    margin-top: 10px;
+    border: 1px solid rgb(53, 197, 13);
+}
+
+header h1{
+    margin-left: 12px;
+}
+
+/* -------------------- NAV ------------------------------- */
+
+nav{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 7px;
+}
+
+nav ul li{
+    float: left;
+    /* margin: 12px; */
+    
+}
+
+nav ul li a{
+    color: rgb(53, 197, 13);
+    text-decoration: none;
+    width: 60px;
+    display: block;
+    padding: 8px 25px 8px 5px ;
+    text-align: center;
+}
+
+/* nav #active{
+    text-align: right;
+} */
+
+nav ul li a:hover{
+    color: black;
+    text-align: center;
+    background-color:rgb(53, 197, 13) ;
+}
+
+/* -------------------- ARTICLE ------------------------------- */
+
+article{
+    border: 1px solid rgb(53, 197, 13);
+    width: 68%;
+    height: 900px;
+    float: left;
+}
+
+article #content{
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    margin-left: 12px;
+}
+
+
+/* -------------------- ASIDE ------------------------------- */
+
+aside{
+    width: 30%;
+    height: 900px;
+    float: right;
+    border: 1px solid rgb(53, 197, 13);
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+}
+
+aside #kali{
+    font-size: 2px;
+    padding: 15px 5px 5px 2px;
+}
+
+aside h1{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+aside ul{
+    margin-left: 15px;
+}
+aside ul li a{
+    color:rgb(53, 197, 13);
+    text-decoration: none;
+
+}
+aside ul li a:hover{
+    color: black;
+    text-align: center;
+    background-color:rgb(53, 197, 13) ;
+}
+/* -------------------- FOOTER ------------------------------- */
+
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(53, 197, 13);
+    margin-bottom: 20px;
+}
+
+footer p{
+    text-align: center;
+    margin: 10px 0px 5px 0;
+    
+}
